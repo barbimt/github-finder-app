@@ -4,7 +4,7 @@ import GithubContext from "../../context/github/GithubContext";
 
 function UserSearch() {
   const [text, setText] = useState("");
-  const {users} = useContext(GithubContext)
+  const {users, searchUsers} = useContext(GithubContext)
 
   const handleChange = (e) => setText(e.target.value);
   const handleSubmit = (e) => {
@@ -14,6 +14,7 @@ function UserSearch() {
       alert("please enter something");
     } else {
       //@todo-search user
+      searchUsers(text)
       setText("");
     }
   };
@@ -25,7 +26,7 @@ function UserSearch() {
             <div className="relative">
               <input
                 type="text"
-                className="w-full- pr-40 bg-gray-300 input input-lg text-black"
+                className="w-full pr-40 input-bordered input-accent input input-lg text-black bg-zinc-100"
                 placeholder="Search"
                 value={text}
                 onChange={handleChange}

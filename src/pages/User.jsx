@@ -128,9 +128,9 @@ function User() {
           </div>
         </div>
 
-        <div className='w-full py-5 mb-6 rounded-lg shadow-md bg-base-100 stats'>
-          <div className='grid grid-cols-1 md:grid-cols-3 justify-items-center'>
-            <div className='stat  w-1/2'>
+        <div className='w-full py-5 mb-6 rounded-lg shadow-md bg-base-100 stats '>
+          <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-items-center' >
+            <div className='stat w-4/5'>
               <div className='stat-figure text-secondary'>
                 <FaUsers className='text-3xl md:text-5xl' />
               </div>
@@ -140,7 +140,7 @@ function User() {
               </div>
             </div>
 
-            <div className='stat  w-1/2'>
+            <div className='stat  w-4/5'>
               <div className='stat-figure text-secondary'>
                 <FaUserFriends className='text-3xl md:text-5xl' />
               </div>
@@ -150,7 +150,7 @@ function User() {
               </div>
             </div>
 
-            <div className='stat  w-1/2'>
+            <div className='stat  w-4/5'>
               <div className='stat-figure text-secondary'>
                 <FaCodepen className='text-3xl md:text-5xl' />
               </div>
@@ -160,7 +160,7 @@ function User() {
               </div>
             </div>
 
-            <div className='stat  w-1/2'>
+            <div className='stat  w-4/5'>
               <div className='stat-figure text-secondary'>
                 <FaStore className='text-3xl md:text-5xl' />
               </div>

@@ -19,7 +19,7 @@ export const searchUsers = async (text) => {
 
 //GET single user and repos
 
-export const getUserAndRepos = async(loading) => {
+export const getUserAndRepos = async(login) => {
     //use promise
     const [user, repos] = await Promise.all([
         github.get(`/users/${login}`),

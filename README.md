@@ -11,6 +11,8 @@ Skills used for this project:
 - Handle global state with [React Context API](https://es.reactjs.org/docs/context.html#api), reducers and hooks
 - Tailwind with DaisyUI
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/82407633/181074099-f3df8b83-076d-49a4-92d3-db5f5655049f.gif)
+
 Usage
 -------------
 You can use the Github API without a personal token, but if you want to use your token, add it to the .env file
